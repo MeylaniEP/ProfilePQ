@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="bg-[url('/mey.png')] bg-cover bg-center min-h-screen flex items-center lg:p-52 p-16 relative"
+      className="bg-[url('/mey.png')] bg-cover bg-center min-h-screen flex items-center lg:p-52 p-4 relative"
     >
       {/* Backdrop dengan warna hitam */}
       <div className="absolute inset-0 bg-black opacity-70"></div>

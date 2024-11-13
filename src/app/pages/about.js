@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
-import Image from "next/image"; // Assuming you're using Next.js's Image component for optimization
+import Image from "next/image"; 
 import Amikom from "../../../public/amikom.png";
 import Binar from "../../../public/binar.png";
 
