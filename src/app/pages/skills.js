@@ -35,7 +35,6 @@ export default function Skills() {
       id="skills"
       className="min-h-screen bg-gray-100 py-16 flex flex-col items-center"
     > 
-
       <div className="max-w-4xl px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-12" data-aos="fade-up">
           My Skills
@@ -43,7 +42,7 @@ export default function Skills() {
 
         {/* Hard Skills Section with Progress Bars */}
         <div className="text-left mb-12" data-aos="fade-up">
-          <h3 className="text-2xl font-semibold text-purple-400 mb-6">Hard Skills</h3>
+          <h3 className="text-2xl font-semibold text-yellow-600 mb-6">Hard Skills</h3>
           {[
             { skill: "JavaScript", level: "90%" },
             { skill: "HTML5", level: "95%" },
@@ -51,7 +50,10 @@ export default function Skills() {
             { skill: "Bootstrap", level: "85%" },
             { skill: "TailwindCSS", level: "90%" },
             { skill: "NextJS", level: "80%" },
-            { skill: "NodeJS", level: "75%" },
+            { skill: "NodeJS", level: "90%" },
+            { skill: "MySQL", level: "95%" },
+            { skill: "Docker", level: "90%" },
+            { skill: "NestJS", level: "90%" },
           ].map((item, index) => (
             <div key={index} className="mb-4">
               <div className="flex justify-between text-gray-700 font-medium mb-1">
@@ -61,7 +63,7 @@ export default function Skills() {
               <div className="w-full bg-gray-300 rounded-full h-3 overflow-hidden">
                 <div
                   ref={(el) => (skillRefs.current[index] = el)}
-                  className="bg-purple-400 h-3 rounded-full transition-all duration-1000 ease-out"
+                  className="bg-yellow-600 h-3 rounded-full transition-all duration-1000 ease-out"
                   data-level={item.level} // Data attribute for target level
                   style={{ width: "0%" }} // Initial width set to 0
                 ></div>
@@ -72,7 +74,7 @@ export default function Skills() {
 
         {/* Soft Skills Section */}
         <div className="text-left" data-aos="fade-up" data-aos-delay="200">
-          <h3 className="text-2xl font-semibold text-purple-400 mb-6">Soft Skills</h3>
+          <h3 className="text-2xl font-semibold text-yellow-600 mb-6">Soft Skills</h3>
           <div className="flex flex-wrap gap-4">
             {[
               { skill: "Teamwork", icon: "🤝" },

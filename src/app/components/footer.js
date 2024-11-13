@@ -5,13 +5,13 @@ export default function Footer() {
     <div className="bg-gray-800 text-white py-8">
       <div className="max-w-6xl mx-auto text-center">
         {/* Your Name */}
-        <p className="text-2xl font-semibold mb-4">Meylani Eka Pertiwi</p>
+        <p className="text-2xl font-semibold mb-4">Pijar Pahlawan Qolbu</p>
 
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6">
-          {/* Instagram Icon */}
+          {/* Instagram Icon (Empty page link) */}
           <a
-            href="https://www.instagram.com/meypi__/profilecard/?igsh=MTJya3J4Y2x0enUxOA=="
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-pink-500"
@@ -34,9 +34,9 @@ export default function Footer() {
             </svg>
           </a>
 
-          {/* Facebook Icon */}
+          {/* Facebook Icon (Empty page link) */}
           <a
-            href="https://www.facebook.com/meylani.meylani.56679015?mibextid=JRoKGi"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-600"
@@ -60,7 +60,7 @@ export default function Footer() {
 
           {/* LinkedIn Icon */}
           <a
-            href="https://www.linkedin.com/in/meylani-eka-pertiwi-6a494b31a"
+            href="https://www.linkedin.com/in/pijar-pahlawan/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-800"
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* GitHub Icon */}
           <a
-            href="https://github.com/MeylaniEP"
+            href="https://github.com/pijarpahlawan?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-gray-800"
@@ -109,7 +109,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Text */}
-        <p className="text-sm text-gray-400 mt-4">&copy; 2024 Meylani Eka Pertiwi</p>
+        <p className="text-sm text-gray-400 mt-4">&copy; 2024 Pijar Pahlawan Qolbu</p>
       </div>
     </div>
   );

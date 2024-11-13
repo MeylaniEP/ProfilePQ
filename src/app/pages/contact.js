@@ -11,10 +11,10 @@ export default function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-72 text-center">
           <h3 className="text-xl font-semibold text-gray-700 mb-2">📞 Phone</h3>
           <a
-            href="tel:+6281217478861"
+            href="tel:+6282327374035"
             className="text-gray-800 text-lg hover:text-blue-600"
           >
-            +62812-1747-8861
+            +62823-2737-4035
           </a>
         </div>
 
@@ -22,10 +22,10 @@ export default function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-72 text-center">
           <h3 className="text-xl font-semibold text-gray-700 mb-2">📧 Email</h3>
           <a
-            href="mailto:meylaniekap1105@gmail.com"
+            href="mailto:pijarpahlawanq@gmail.com"
             className="text-gray-800 text-lg hover:text-blue-600"
           >
-            meylaniekap1105@gmail.com
+            pijarpahlawanq@gmail.com
           </a>
         </div>
         
@@ -34,12 +34,12 @@ export default function Contact() {
           <h3 className="text-xl font-semibold text-gray-700 mb-2">📍 Address</h3>
           <p className="text-gray-800 text-lg">
             <a
-              href="https://maps.app.goo.gl/2ZJ25KKB1JzRekkf9"
+              href="https://maps.app.goo.gl/75CeuJcrh2pTzkak8"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              Kutu Asem, Sinduadi, Mlati, Sleman, DI Yogyakarta
+              Jl. Nusa Indah No.36, Candok, Condongcatur, Kec. Depok, Kabupaten Sleman, DI Yogyakarta 55281
             </a>
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-72 text-center">
           <h3 className="text-xl font-semibold text-gray-700 mb-2">LinkedIn</h3>
           <a
-            href="https://www.linkedin.com/in/meylani-eka-pertiwi-6a494b31a"
+            href="https://www.linkedin.com/in/pijar-pahlawan/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800"
@@ -64,7 +64,7 @@ export default function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-72 text-center">
           <h3 className="text-xl font-semibold text-gray-700 mb-2">GitHub</h3>
           <a
-            href="https://github.com/MeylaniEP"
+            href="https://github.com/pijarpahlawan?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 hover:text-gray-900"

@@ -45,10 +45,10 @@ export default function Header() {
     >
       <h3 className="text-white flex gap-2 text-3xl md:text-4xl font-semibold">
         <div>
-          <span className="text-purple-400">M</span>eylani
+          <span className="text-yellow-600">P</span>ijar
         </div>
         <div>
-          <span className="text-purple-400">E</span>ka
+          <span className="text-yellow-600">P</span>ahlawan
         </div>
       </h3>
 
@@ -72,9 +72,9 @@ export default function Header() {
                 <a
                   href={hash}
                   onClick={closeMenu} // Menutup menu saat item diklik
-                  className={`hover:text-purple-400 text-lg lg:text-xl font-medium ${
+                  className={`hover:text-yellow-600 text-lg lg:text-xl font-medium ${
                     activeSection === hash
-                      ? "text-purple-400 border-b-2 border-purple-400"
+                      ? "text-yellow-600 border-b-2 border-yellow-600"
                       : "text-white"
                   }`}
                 >

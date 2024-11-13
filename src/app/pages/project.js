@@ -2,11 +2,8 @@
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
-import Profile from "../../../public/profile.png";
-import Urban from "../../../public/urban.png";
-import Indoventure from "../../../public/indoventure.png";
-import Watch from "../../../public/watch.png";
-import Peduli from "../../../public/peduli.png";
+import Restaurant from "../../../public/restaurant.png";
+import Market from "../../../public/market.png";
 
 export default function Project() {
   useEffect(() => {
@@ -15,44 +12,20 @@ export default function Project() {
 
   const projects = [
     {
-      title: "Personal Portfolio Website",
+      title: "Restaurant",
       description:
         "A sleek and responsive portfolio showcasing my skills and projects. Emphasis on modern design and performance.",
-      technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
-      image: Profile,
-      link: "https://meylanieka.vercel.app/",
+      technologies: ["Next.js", "Tailwind CSS", "JavaScript","React","MySql"],
+      image: Restaurant,
+      link: "https://restaurant-apps-phi.vercel.app/",
     },
     {
       title: "Company Profile",
       description:
         "A robust e-commerce platform with user-friendly design, optimized for conversions.",
-      technologies: ["React", "JavaScript"],
-      image: Urban,
-      link: "https://urban-walk-kelompok12-dibis.vercel.app/",
-    },
-    {
-      title: "Online Course",
-      description:
-        "Collaborative task manager with real-time syncing, perfect for productivity.",
-      technologies: ["Bootstrap", "React", "JavaScript"],
-      image: Peduli,
-      link: "https://peduli-belajar.vercel.app/",
-    },
-    {
-      title: "Catalog Movie",
-      description:
-        "Headless CMS-driven blog platform allowing easy content management and customization.",
-      technologies: ["React", "Redux", "Node.js", "TMDB API"],
-      image: Watch,
-      link: "https://challenge-6-redux-state-management-redux-thunk-movie-list.vercel.app/",
-    },
-    {
-      title: "Copywriting & Google Analys",
-      description:
-        "A dynamic data visualization dashboard for actionable business insights.",
-      technologies: ["React", "JavaScript"],
-      image: Indoventure,
-      link: "https://indo-venture-kelompok12-digital-bisnis.vercel.app/",
+      technologies: ["MySql","JavaScript"],
+      image: Market,
+      link: "https://github.com/pijarpahlawan/marketani-server",
     },
   ];
 
@@ -77,7 +50,7 @@ export default function Project() {
                 />
               </div>
               <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold text-purple-400 mb-2 transition duration-300 hover:text-purple-500">
+                <h3 className="text-xl font-semibold text-yellow-600 mb-2 transition duration-300 hover:text-purple-500">
                   {project.title}
                 </h3>
                 <p className="text-gray-300 mb-2 text-sm">{project.description}</p>
@@ -91,7 +64,7 @@ export default function Project() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-2 bg-purple-500 text-white font-semibold px-3 py-1 rounded text-xs hover:bg-purple-600 transition duration-300"
+                  className="inline-block mt-2 bg-yellow-500 text-white font-semibold px-3 py-1 rounded text-xs hover:bg-yellow-600 transition duration-300"
                 >
                   View Project
                 </a>

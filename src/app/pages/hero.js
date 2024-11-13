@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="bg-[url('/mey.png')] bg-cover bg-center min-h-screen flex items-center lg:p-52 p-4 relative"
+      className="bg-[url('/pijar.jpeg')] bg-cover bg-center min-h-screen flex items-center lg:p-52 p-4 relative"
     >
       {/* Backdrop dengan warna hitam */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
@@ -30,14 +30,14 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <span className="text-purple-400">M</span>eylani
+            <span className="text-yellow-600">P</span>ijar
           </p>
           <p
             className="text-white text-6xl md:text-7xl font-bold"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <span className="text-purple-400">E</span>ka
+            <span className="text-yellow-600">P</span>ahlawan
           </p>
         </div>
         <p
@@ -45,16 +45,15 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          <span className="text-purple-400">P</span>ertiwi
+          <span className="text-yellow-600">Q</span>albu
         </p>
         <p
           className="text-white text-lg md:text-xl mt-6 max-w-3xl"
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          Bringing Elegant and Functional Web Design, Ensuring Every User
-          Interaction Becomes a Satisfying Experience, Regardless of the Device
-          Used.
+          Crafting Scalable and User-Centered Web Solutions, Perfecting Every
+          Detail for Optimal Performance.
         </p>
       </div>
     </div>

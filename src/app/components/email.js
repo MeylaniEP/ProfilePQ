@@ -7,7 +7,7 @@ export default function WhatsAppButton() {
       style={{ zIndex: 1000 }}
     >
       <a
-        href="https://wa.me/6281217478861"
+        href="https://wa.me/6282327374035"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contact on WhatsApp"
